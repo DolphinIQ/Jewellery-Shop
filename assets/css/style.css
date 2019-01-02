@@ -1,0 +1,106 @@
+body {
+	background-color: #ffffff;
+	margin: 0;
+	font-family: 'Charm', cursive !important ;
+}
+
+/* ============================ NAVBAR =========================== */
+nav.bg-light{
+	background: #fff !important;
+	border-bottom: 1px solid rgba( 0 , 0 , 0 , 0.1 );
+}
+
+a.nav-link {
+	font-size: 1.4rem;
+	margin-right: 20px;
+	color: rgba( 0 , 0 , 0 , 0.8 ) !important;
+}
+
+a.nav-link:hover {
+	color: rgba( 0 , 0 , 0 , 1.0 ) !important;
+}
+
+a.dropdown-item{
+	font-size: 1.4rem;
+}
+
+
+/* ============================ Header =========================== */
+header{
+	margin: 50px 40px 30px;
+}
+
+header h2{
+	font-size: 3.0rem;
+}
+
+header p{
+	margin-left: 50px;
+	font-size: 1.7rem;
+}
+
+
+/* ============================ Item Display =========================== */
+/* 
+.item-display{
+	
+}
+ */
+.item-container{
+	border: 2px solid rgba( 0 , 0 , 0 , 0.2 );
+	border-radius: 10px;
+}
+ 
+.item-display{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.item-display canvas{
+	width: 100%;
+	height: 100%;
+	border-right: 1px solid rgba( 0 , 0 , 0 , 0.2 );
+}
+
+.item-description{
+	height: 350px;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+.item-description h4{
+	text-align: center;
+	font-size: 2.5rem;
+	padding-right: 25px;
+}
+
+.item-description h4 span{
+	color: #b00;
+	text-decoration: line-through;
+	font-size: 2.0rem;
+	margin-right: 25px;
+}
+
+.item-description .collection{
+	font-size: 1.5rem;
+}
+
+.item-description form{
+	font-family: Helvetica;
+}
+
+.item-description form select{
+	margin: 30px 0;
+}
+
+
+/* =========================== Footer ============================== */
+footer{
+	height: 70px;
+	background: #b0b0b0;
+	margin-top: 150px;
+	text-align: center;
+}
+
+
+
