@@ -19,7 +19,7 @@
 	</head>
 	<body>
 		
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 		  <a class="navbar-brand" href="#">
 			<img src="assets/img/logo.png" alt="Logo">
 		  </a>
@@ -50,7 +50,7 @@
 			</ul>
 			
 			<form class="form-inline my-2 my-lg-0">
-			  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			  <input class="form-control mr-sm-2" type="search" placeholder="Search Jewellery" aria-label="Search">
 			  <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
 			</form>
 		  </div>
@@ -78,10 +78,11 @@
 						
 						<form action="" method="POST" >
 							
+							<label for="item-options" > Choose Color: </label>
 							<select id="item-options" class="custom-select">
-							  <option value="0" selected>Golden</option>
-							  <option value="1">White</option>
-							  <option value="2">Dark</option>
+							  <option value="gold" selected>Golden</option>
+							  <option value="white">White</option>
+							  <option value="dark">Dark</option>
 							</select>
 							
 							<button type="button" class="btn btn-info btn-lg btn-block">
@@ -98,7 +99,7 @@
 			</div>
 			
 			<a href="#" class="btn btn-light btn-lg back-button">
-				<i class="fas fa-angle-double-left"></i> Back
+				<i class="fas fa-angle-double-left"></i> Back to Collection
 			</a>
 			
 		</div>
